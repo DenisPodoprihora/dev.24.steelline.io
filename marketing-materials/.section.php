@@ -1,0 +1,3 @@
+<?
+$sSectionName="Marketing_materials";
+?>

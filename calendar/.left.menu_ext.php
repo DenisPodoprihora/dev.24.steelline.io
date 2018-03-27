@@ -1,0 +1,36 @@
+<?
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
+{
+	die();
+}
+
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public/calendar/.left.menu_ext.php");
+
+$userId = $USER->getId();
+
+$aMenuLinks = array(
+	array(
+		GetMessage("MENU_CALENDAR_USER"),
+		SITE_DIR."company/personal/user/".$userId."/calendar/",
+		array(),
+		array(
+			"menu_item_id" => "menu_my_calendar", 
+			"counter_id" => "calendar"
+		),
+		"CBXFeatures::IsFeatureEnabled('Calendar')"
+	)
+);
+	if (in_array(12, $USER->GetUserGroupArray())){
+		$aMenuLinks2 = array(
+			array(
+			GetMessage("MENU_CALENDAR_COMPANY"),
+			SITE_DIR."calendar/",
+			array(),
+			array(
+				"menu_item_id" => "menu_company_calendar"
+			),
+			"CBXFeatures::IsFeatureEnabled('CompanyCalendar')"
+			)
+		);
+	}
+$aMenuLinks = array_merge($aMenuLinks, $aMenuLinks2);

@@ -1,0 +1,951 @@
+@font-face {
+	font-family: "Muller";
+	src: url("../fonts/muller/MullerRegular.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*body.addstyle_User_TO*/
+
+
+body.addstyle_User_TO #bx-im-bar,
+body.addstyle-distributor #bx-im-bar,
+body.addstyle-diler #bx-im-bar,
+body.addstyle-subdiler #bx-im-bar,
+body.addstyle_User_TO #bx-help-block,
+body.addstyle-distributor #bx-help-block,
+body.addstyle-diler #bx-help-block,
+body.addstyle-subdiler #bx-help-block,
+body.addstyle_User_TO #copyright,
+body.addstyle-distributor #copyright,
+body.addstyle-diler #copyright,
+body.addstyle-subdiler #copyright,
+body.addstyle_User_TO #menu-favorites-settings-btn,
+body.addstyle-distributor #menu-favorites-settings-btn,
+body.addstyle-diler #menu-favorites-settings-btn,
+body.addstyle-subdiler #menu-favorites-settings-btn,
+body.addstyle_User_TO .ui-btn-icon-setting,
+body.addstyle-distributor .ui-btn-icon-setting,
+body.addstyle-diler .ui-btn-icon-setting,
+body.addstyle-subdiler .ui-btn-icon-setting,
+body.addstyle_User_TO #crm_quote_show_v12_qpv_placeholder,
+body.addstyle-distributor #crm_quote_show_v12_qpv_placeholder,
+body.addstyle-diler #crm_quote_show_v12_qpv_placeholder,
+body.addstyle-subdiler #crm_quote_show_v12_qpv_placeholder,
+body.addstyle_User_TO #crm_quote_show_v12_qpv_message_wrap,
+body.addstyle-distributor #crm_quote_show_v12_qpv_message_wrap,
+body.addstyle-diler #crm_quote_show_v12_qpv_message_wrap,
+body.addstyle-subdiler #crm_quote_show_v12_qpv_message_wrap,
+body.addstyle_User_TO #crm_control_panel_menu_menu_crm_facetracker,
+body.addstyle-distributor #crm_control_panel_menu_menu_crm_facetracker,
+body.addstyle-diler #crm_control_panel_menu_menu_crm_facetracker,
+body.addstyle-subdiler #crm_control_panel_menu_menu_crm_facetracker,
+body.addstyle_User_TO .main-buttons-item-more-default,
+body.addstyle-distributor .main-buttons-item-more-default,
+body.addstyle-diler .main-buttons-item-more-default,
+body.addstyle-subdiler .main-buttons-item-more-default,
+body.addstyle_User_TO .crm-title-block,
+body.addstyle-distributor .crm-title-block,
+body.addstyle-diler .crm-title-block,
+body.addstyle-subdiler .crm-title-block,
+body.addstyle_User_TO .crm-offer-title-edit,
+body.addstyle-distributor .crm-offer-title-edit,
+body.addstyle-diler .crm-offer-title-edit,
+body.addstyle-subdiler .crm-offer-title-edit,
+body.addstyle_User_TO .crm-offer-title-del,
+body.addstyle-distributor .crm-offer-title-del,
+body.addstyle-diler .crm-offer-title-del,
+body.addstyle-subdiler .crm-offer-title-del,
+body.addstyle_User_TO .bxlhe-editor-toolbar-row,
+body.addstyle-distributor .bxlhe-editor-toolbar-row,
+body.addstyle-diler .bxlhe-editor-toolbar-row,
+body.addstyle-subdiler .bxlhe-editor-toolbar-row,
+body.addstyle_User_TO .lhe-resize-row,
+body.addstyle-distributor .lhe-resize-row,
+body.addstyle-diler .lhe-resize-row,
+body.addstyle-subdiler .lhe-resize-row,
+body.addstyle_User_TO .crm-offer-edit-btn-wrap,
+body.addstyle-distributor .crm-offer-edit-btn-wrap,
+body.addstyle-diler .crm-offer-edit-btn-wrap,
+body.addstyle-subdiler .crm-offer-edit-btn-wrap,
+body.addstyle_User_TO .crm-offer-info-right-btn *,
+body.addstyle-distributor .crm-offer-info-right-btn *,
+body.addstyle-diler .crm-offer-info-right-btn *,
+body.addstyle-subdiler .crm-offer-info-right-btn *,
+body.addstyle_User_TO .crm-offer-info-table tbody > tr:last-of-type,
+body.addstyle-distributor .crm-offer-info-table tbody > tr:last-of-type,
+body.addstyle-diler .crm-offer-info-table tbody > tr:last-of-type,
+body.addstyle-subdiler .crm-offer-info-table tbody > tr:last-of-type,
+body.addstyle_User_TO .crm-offer-drg-btn,
+body.addstyle-distributor .crm-offer-drg-btn,
+body.addstyle-diler .crm-offer-drg-btn,
+body.addstyle-subdiler .crm-offer-drg-btn,
+body.addstyle_User_TO .crm-items-add-row-wrap,
+body.addstyle-distributor .crm-items-add-row-wrap,
+body.addstyle-diler .crm-items-add-row-wrap,
+body.addstyle-subdiler .crm-items-add-row-wrap,
+body.addstyle_User_TO #crm-product-section-crumbs-zHWy41,
+body.addstyle-distributor #crm-product-section-crumbs-zHWy41,
+body.addstyle-diler #crm-product-section-crumbs-zHWy41,
+body.addstyle-subdiler #crm-product-section-crumbs-zHWy41,
+body.addstyle_User_TO form[name="filter_CRM_PRODUCT_LIST"],
+body.addstyle-distributor form[name="filter_CRM_PRODUCT_LIST"],
+body.addstyle-diler form[name="filter_CRM_PRODUCT_LIST"],
+body.addstyle-subdiler form[name="filter_CRM_PRODUCT_LIST"],
+.bx-crm-goods-table .bx-crm-goods-drug-btn,
+.bx-crm-goods-table .bx-crm-table-sidebar-cell,
+#workarea-content.btrx-no-paddings .workarea-content-paddings .bx-grid-gutter,
+.marketing-materials .pagetitle-menu,
+body.addstyle_User_TO .bx-disk-table-sidebar-cell,
+body.addstyle-distributor .bx-disk-table-sidebar-cell,
+body.addstyle-diler .bx-disk-table-sidebar-cell,
+body.addstyle-subdiler .bx-disk-table-sidebar-cell,
+body.addstyle_User_TO #top_menu_id_docs_more_button,
+body.addstyle-distributor #top_menu_id_docs_more_button,
+body.addstyle-diler #top_menu_id_docs_more_button,
+body.addstyle-subdiler #top_menu_id_docs_more_button,
+#workarea-content.btrx-no-paddings .workarea-content-paddings .bx-crm-interface-toolbar,
+#workarea-content.btrx-no-paddings .workarea-content-paddings #product_info,
+body.addstyle-diler .pagetitle-menu .webform-small-button-blue:first-of-type,
+body.addstyle-subdiler .pagetitle-menu .webform-small-button-blue:first-of-type,
+body.addstyle_User_TO #pagetitle-menu,
+body.addstyle-distributor #pagetitle-menu,
+body.addstyle-diler #pagetitle-menu,
+body.addstyle-subdiler #pagetitle-menu,
+body.addstyle_User_TO #bx_str_level1_table,
+body.addstyle-distributor #bx_str_level1_table,
+body.addstyle-diler #bx_str_level1_table,
+body.addstyle-subdiler #bx_str_level1_table,
+body.addstyle_User_TO #section_recurring_contents,
+body.addstyle-distributor #section_recurring_contents,
+body.addstyle-diler #section_recurring_contents,
+body.addstyle-subdiler #section_recurring_contents,
+body.addstyle_User_TO #deal_category_panel_selector,
+body.addstyle-distributor #deal_category_panel_selector,
+body.addstyle-diler #deal_category_panel_selector,
+body.addstyle-subdiler #deal_category_panel_selector,
+.map_app .head h1,
+.map-page #bx_intranet_toolbar,
+body.addstyle_User_TO .bx-crm-view-tab-block .bx-context-button,
+body.addstyle-distributor .bx-crm-view-tab-block .bx-context-button,
+body.addstyle-diler .bx-crm-view-tab-block .bx-context-button,
+body.addstyle-subdiler .bx-crm-view-tab-block .bx-context-button,
+body.addstyle_User_TO .crm-lead-header-table > tbody > tr:not(:first-of-type),
+body.addstyle-distributor .crm-lead-header-table > tbody > tr:not(:first-of-type),
+body.addstyle-diler .crm-lead-header-table > tbody > tr:not(:first-of-type),
+body.addstyle-subdiler .crm-lead-header-table > tbody > tr:not(:first-of-type),
+body.addstyle_User_TO .crm-view-message,
+body.addstyle-distributor .crm-view-message,
+body.addstyle-diler .crm-view-message,
+body.addstyle-subdiler .crm-view-message,
+body.addstyle_User_TO #pagetitle-star,
+body.addstyle-distributor #pagetitle-star,
+body.addstyle-diler #pagetitle-star,
+body.addstyle-subdiler #pagetitle-star,
+body.addstyle_User_TO #CRM_QUOTE_SHOW_V12_tab_block,
+body.addstyle-distributor #CRM_QUOTE_SHOW_V12_tab_block,
+body.addstyle-diler #CRM_QUOTE_SHOW_V12_tab_block,
+body.addstyle-subdiler #CRM_QUOTE_SHOW_V12_tab_block,
+body.addstyle_User_TO #CRM_DEAL_SHOW_V12_tab_block,
+body.addstyle-distributor #CRM_DEAL_SHOW_V12_tab_block,
+body.addstyle-diler #CRM_DEAL_SHOW_V12_tab_block,
+body.addstyle-subdiler #CRM_DEAL_SHOW_V12_tab_block,
+body.addstyle_User_TO div[data-url="/crm/start/"] {
+    display: none !important;
+    pointer-events: none !important;
+}
+
+.map_app .head {
+    padding: 0;
+}
+
+body.addstyle_User_TO,
+body.addstyle-distributor,
+body.addstyle-diler,
+body.addstyle-subdiler { background: #eff2f4 !important; }
+
+body.addstyle_User_TO .main-ui-square.main-ui-filter-search-square,
+body.addstyle-distributor .main-ui-square.main-ui-filter-search-square,
+body.addstyle-diler .main-ui-square.main-ui-filter-search-square,
+body.addstyle-subdiler .main-ui-square.main-ui-filter-search-square { background: #caecfa !important; }
+
+body.addstyle_User_TO .main-grid-table .tbody > .main-grid-row-body:hover > td,
+body.addstyle-distributor .main-grid-table .tbody > .main-grid-row-body:hover > td,
+body.addstyle-diler .main-grid-table .tbody > .main-grid-row-body:hover > td,
+body.addstyle-subdiler .main-grid-table .tbody > .main-grid-row-body:hover > td { background: #f6f6f9 !important; }
+
+body.addstyle_User_TO #workarea-content,
+body.addstyle-distributor #workarea-content,
+body.addstyle-diler #workarea-content,
+body.addstyle-subdiler #workarea-content { background: none; }
+
+body.addstyle_User_TO .workarea-content-paddings,
+body.addstyle-distributor .workarea-content-paddings,
+body.addstyle-diler .workarea-content-paddings,
+body.addstyle-subdiler .workarea-content-paddings { background: #fff; }
+
+body.addstyle_User_TO #counter_panel_container,
+body.addstyle-distributor #counter_panel_container,
+body.addstyle-diler #counter_panel_container,
+body.addstyle-subdiler #counter_panel_container { margin-bottom: 20px; }
+
+body.addstyle_User_TO .crm-page-nocounter,
+body.addstyle-distributor .crm-page-nocounter,
+body.addstyle-diler .crm-page-nocounter,
+body.addstyle-subdiler .crm-page-nocounter { font-size: 13px; }
+
+body.addstyle_User_TO .crm-view-switcher.pagetitle-align-right-container,
+body.addstyle-distributor .crm-view-switcher.pagetitle-align-right-container,
+body.addstyle-diler .crm-view-switcher.pagetitle-align-right-container,
+body.addstyle-subdiler .crm-view-switcher.pagetitle-align-right-container {
+    position: relative;
+    top: -15px;
+}
+
+body.addstyle_User_TO .crm-offer-main-wrap,
+body.addstyle-distributor .crm-offer-main-wrap,
+body.addstyle-diler .crm-offer-main-wrap,
+body.addstyle-subdiler .crm-offer-main-wrap {
+    border: 0;
+}
+
+body.addstyle_User_TO .crm-item-table-select,
+body.addstyle-distributor .crm-item-table-select, body.addstyle-distributor .filter-dropdown,
+body.addstyle-diler .crm-item-table-select, body.addstyle-diler .filter-dropdown,
+body.addstyle-subdiler .crm-item-table-select, body.addstyle-subdiler .filter-dropdown {
+    padding: 0 12px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
+    background: #fff url(../images/select-caret.png) calc(100% - 5px) center no-repeat;
+}
+
+body.addstyle-distributor .filter-dropdown,
+body.addstyle-diler .filter-dropdown,
+body.addstyle-subdiler .filter-dropdown {
+    background-color: #f7f7f7;
+}
+
+body.addstyle_User_TO .crm-item-table-select:-ms-expand,
+body.addstyle-distributor .crm-item-table-select:-ms-expand,
+body.addstyle-diler .crm-item-table-select:-ms-expand,
+body.addstyle-subdiler .crm-item-table-select:-ms-expand { display: none; }
+
+body.addstyle_User_TO .crm-offer-editor-wrap,
+body.addstyle-distributor .crm-offer-editor-wrap,
+body.addstyle-diler .crm-offer-editor-wrap,
+body.addstyle-subdiler .crm-offer-editor-wrap {
+    width: 37%;
+    border: 1px solid #d9d9d9;
+}
+
+body.addstyle_User_TO .bxlhe-frame,
+body.addstyle-distributor .bxlhe-frame,
+body.addstyle-diler .bxlhe-frame,
+body.addstyle-subdiler .bxlhe-frame,
+body.addstyle_User_TO .bxlhe-frame-table,
+body.addstyle-distributor .bxlhe-frame-table,
+body.addstyle-diler .bxlhe-frame-table,
+body.addstyle-subdiler .bxlhe-frame-table,
+body.addstyle_User_TO .bxlhe-editor-cell,
+body.addstyle-distributor .bxlhe-editor-cell,
+body.addstyle-diler .bxlhe-editor-cell,
+body.addstyle-subdiler .bxlhe-editor-cell {
+    height: 90px !important;
+}
+
+body.addstyle_User_TO div.crm-info-wrapper .crm-info-description-wrapper,
+body.addstyle-distributor div.crm-info-wrapper .crm-info-description-wrapper,
+body.addstyle-diler div.crm-info-wrapper .crm-info-description-wrapper,
+body.addstyle-subdiler div.crm-info-wrapper .crm-info-description-wrapper {
+    font-size: inherit;
+    opacity: 0.5;
+}
+
+body.addstyle_User_TO #crm-l-space,
+body.addstyle-distributor #crm-l-space,
+body.addstyle-diler #crm-l-space,
+body.addstyle-subdiler #crm-l-space {
+    width: 37%;
+}
+
+body.addstyle_User_TO #new_lead_product_editor_add_product_button,
+body.addstyle-distributor #new_lead_product_editor_add_product_button,
+body.addstyle-diler #new_lead_product_editor_add_product_button,
+body.addstyle-subdiler #new_lead_product_editor_add_product_button {
+    margin-left: 20px;
+}
+
+body.addstyle_User_TO #menu-popup-my_activities_crm_activity_grid_editor_toolbar_menu,
+body.addstyle-distributor #menu-popup-my_activities_crm_activity_grid_editor_toolbar_menu,
+body.addstyle-diler #menu-popup-my_activities_crm_activity_grid_editor_toolbar_menu,
+body.addstyle-subdiler #menu-popup-my_activities_crm_activity_grid_editor_toolbar_menu {
+    width: 115px;
+}
+
+body.addstyle_User_TO .main-grid-empty-block,
+body.addstyle-distributor .main-grid-empty-block,
+body.addstyle-diler .main-grid-empty-block,
+body.addstyle-subdiler .main-grid-empty-block {
+    width: 100% !important;
+}
+
+body.addstyle_User_TO .crm-list-quote-time-expired,
+body.addstyle-distributor .crm-list-quote-time-expired,
+body.addstyle-diler .crm-list-quote-time-expired,
+body.addstyle-subdiler .crm-list-quote-time-expired,
+body.addstyle_User_TO .crm-list-quote-time-expired *,
+body.addstyle-distributor .crm-list-quote-time-expired *,
+body.addstyle-diler .crm-list-quote-time-expired *,
+body.addstyle-subdiler .crm-list-quote-time-expired * {
+    color: #535c69 !important;
+}
+
+body.addstyle_User_TO .bx-crm-edit-crm-entity-change,
+body.addstyle-distributor .bx-crm-edit-crm-entity-change,
+body.addstyle-diler .bx-crm-edit-crm-entity-change,
+body.addstyle-subdiler .bx-crm-edit-crm-entity-change {
+    font-weight: bold;
+    color: #0b66c3;
+    position: relative;
+    top: 6px;
+}
+
+body.addstyle_User_TO .bx-crm-edit-datetime-link,
+body.addstyle-distributor .bx-crm-edit-datetime-link,
+body.addstyle-diler .bx-crm-edit-datetime-link,
+body.addstyle-subdiler .bx-crm-edit-datetime-link {
+    display: block;
+    background: url(/bitrix/js/crm/css/../images/crm-control-panel-sprite-26.png) no-repeat #fff right -2209px;
+    padding: 0 29px 0 5px;
+    width: 160px;
+    border: 1px solid #d9d9d9;
+    margin-left: -2px;
+    height: 27px;
+    line-height: 27px;
+    box-sizing: border-box;
+}
+
+body.addstyle_User_TO .crm-item-table-date,
+body.addstyle-distributor .crm-item-table-date,
+body.addstyle-diler .crm-item-table-date,
+body.addstyle-subdiler .crm-item-table-date {
+    cursor: pointer;
+}
+
+body.addstyle_User_TO .crm-client-selector-type,
+body.addstyle-distributor .crm-client-selector-type,
+body.addstyle-diler .crm-client-selector-type,
+body.addstyle-subdiler .crm-client-selector-type {
+    margin-left: -3px;
+}
+
+body.addstyle_User_TO #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-btn,
+body.addstyle-distributor #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-btn,
+body.addstyle-diler #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-btn,
+body.addstyle-subdiler #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-btn {
+    height: calc(100% + 4px) !important;
+}
+
+body.addstyle_User_TO #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-block,
+body.addstyle-distributor #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-block,
+body.addstyle-diler #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-block,
+body.addstyle-subdiler #CRM_DEAL_LIST_V12_table .crm-list-stage-bar-block {
+    margin-right: -3px !important;
+}
+
+.btrx-button-ebash {
+	padding: 0 19px 0 29px;
+	height: 39px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3bc8f5;
+	position: absolute;
+	right: 80px;
+	margin-top: -55px;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.btrx-button-ebash:hover {
+	background: #3eddff;
+    color: #fff;
+	-webkit-transition: 0.4s;
+	-mox-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.btrx-button-ebash:before {
+	content: '';
+	display: block;
+	position: absolute;
+    top: 50%;
+    left: 13px;
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    transform: translateY(-50%);
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2211px%22%20height%3D%2211px%22%20viewBox%3D%220%200%2011%2011%22%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%20%20%20%20%3Crect%20fill%3D%22%23fff%22%20x%3D%220%22%20y%3D%224%22%20width%3D%2211%22%20height%3D%223%22%20/%3E%0A%20%20%20%20%20%3Crect%20fill%3D%22%23fff%22%20x%3D%224%22%20y%3D%220%22%20width%3D%223%22%20%20height%3D%2211%22/%3E%0A%3C/svg%3E);
+}
+
+#workarea-content.btrx-no-paddings {
+    background: none !important;
+}
+
+#workarea-content.btrx-no-paddings .workarea-content-paddings {
+    padding: 0;
+    background: none !important;
+}
+
+#workarea-content.btrx-no-paddings .workarea-content-paddings .bx-crm-container {
+    background: #fff;
+}
+
+#workarea-content.btrx-no-paddings .workarea-content-paddings .btrx-text-products-information {
+    color: #646975;
+    padding-bottom: 30px;
+}
+
+#workarea-content.btrx-no-paddings .workarea-content-paddings #crm_product_edit_section_wrapper {
+    background: #fff;
+}
+
+#workarea-content.btrx-no-paddings .workarea-content-paddings #price_wrap,
+#workarea-content.btrx-no-paddings .workarea-content-paddings #price_wrap .crm-offer-info-label {
+    font-size: 1.2em;
+    color: #1c53f2;
+}
+
+iframe#calculate {
+    width: 100%;
+    height: 930px;
+    border: 0;
+    -webkit-box-shadow: 1px 1px 32px 7px rgba(0,0,0,0.06);
+       -moz-box-shadow: 1px 1px 32px 7px rgba(0,0,0,0.06);
+            box-shadow: 1px 1px 32px 7px rgba(0,0,0,0.06);
+}
+
+.calc-descr {
+    font-family: Open Sans;
+    background: #fff;
+    padding: 35px;
+    margin-top: -3px;
+}
+
+.calc-descr h3 {
+    font-weight: normal;
+    color: #1d5997;
+}
+
+#tabs li {
+    position: relative;
+    float: left;
+    border-radius: 8px;
+    border: 1px solid #565c68;
+}
+
+#tabs li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#tabs li a {
+    padding: 6px 20px;
+    color: #565c68;
+    background: none !important;
+}
+
+#tabs li.active,
+#tabs li:hover {
+    border-color: #186bd2;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(24,107,210,0.25);
+       -moz-box-shadow: 0px 0px 10px 0px rgba(24,107,210,0.25);
+            box-shadow: 0px 0px 10px 0px rgba(24,107,210,0.25);
+}
+
+#tabs li.active a,
+#tabs li:hover a {
+    color: #186bd2;
+    border: 0 !important;
+}
+
+#tabs li:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 7px;
+    background: url(../images/tabs-arrow.png) center center no-repeat;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: calc(50% - 7px);
+    opacity: 0;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+#tabs li.active:before {
+    opacity: 1;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+body.addstyle_User_TO #bx_str_level2_table,
+body.addstyle-distributor #bx_str_level2_table,
+body.addstyle-diler #bx_str_level2_table,
+body.addstyle-subdiler #bx_str_level2_table {
+    width: 100%;
+}
+
+body.addstyle_User_TO #bx_str_level2_table .tbody,
+body.addstyle-distributor #bx_str_level2_table .tbody,
+body.addstyle-diler #bx_str_level2_table .tbody,
+body.addstyle-subdiler #bx_str_level2_table .tbody {
+    display: block;
+    float: left;
+}
+
+.map_app h3.name {
+    text-indent: 45px;
+}
+
+.map_app .users {
+    width: calc(100% + 100px);
+    margin-top: 40px;
+    margin-left: -50px;
+    padding-top: 25px;
+    padding-left: 50px;
+    border-top: 1px solid #eff2f4;
+}
+
+.map_app .users_data {
+    margin-bottom: 14px;
+    clear: both;
+}
+
+.map_app .users_data .photo {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    float: left;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    overflow: hidden;
+}
+
+.map_app .users_data .no_photo img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.map_app .users_data .user_name {
+    line-height: 20px;
+    color: #4167ac;
+}
+
+.map_app .users_data .work_position {
+    line-height: 20px;
+    color: #555;
+}
+
+.map_app .structure_data {
+    clear: both;
+    margin-top: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.map_app .structure_data:before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/structure_data.png) center center no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.map_app .structure_data div:not(:last-of-type){
+    margin-bottom: 7px;
+}
+
+.map-page #workarea,
+.map-page #workarea-content,
+.map-page .workarea-content-paddings {
+    overflow: visible !important;
+}
+
+.map_app #select-date {
+    font-family: OpenSans-Light;
+    font-size: 26px;
+    height: 74px;
+    position: absolute;
+    top: -89px;
+    right: 0;
+}
+
+.map_app #select-date span {
+    line-height: 70px;
+}
+.map_app #select-date input {
+    pointer-events: none;
+    display: inline-block;
+    width: 234px;
+    height: 42px;
+    border-radius: 4px;
+    border: 2px solid #dadada;
+    position: relative;
+    top: -3px;
+    opacity: 0.5;
+    background: url(../images/map-caret.png) calc(100% - 5px) center no-repeat, -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.05) 100%);
+    background: url(../images/map-caret.png) calc(100% - 5px) center no-repeat, -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.05) 100%);
+    background: url(../images/map-caret.png) calc(100% - 5px) center no-repeat, linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.05) 100%);
+}
+
+
+.map_app #select-date #Begin_date + img,
+.map_app #select-date #Close_date + img {
+    display: block;
+    width: 234px;
+    height: 42px;
+    position: absolute;
+    top: 16px;
+    right: 280px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.map_app #select-date #Close_date + img {
+    right: 0;
+}
+
+.map_app .map .wrapper .detail_salon .info {
+    padding-right: 20px;
+}
+
+.map_app .map .wrapper .detail_salon .info .num {
+    margin-bottom: 5px;
+}
+
+.map_app .Close_deal, .map_app .new_deal {
+    font: 700 18px 'Open Sans', sans-serif;
+    color: #cf2f4c;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.map_app .new_deal {
+    margin-bottom: 20px;
+}
+
+.mm-page .workarea-content-paddings {
+    min-height: 800px;
+    padding: 0;
+}
+
+.mm-page #tabs {
+    padding: 15px 0;
+}
+
+.mm-page .workarea-content-paddings > div:first-of-type {
+    border: 1px solid transparent;
+    padding: 0 0 0 20px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 5px 0px 24px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 0px 24px 0px rgba(0,0,0,0.15);
+    box-shadow: 5px 0px 24px 0px rgba(0,0,0,0.15);
+}
+
+.mm-page .workarea-content-paddings > div:first-of-type .product-item-list-col-4 {
+    margin: 0 0 20px;
+    padding-right: 20px;
+}
+
+.mm-page .workarea-content-paddings .product-item-container,
+.mm-page .workarea-content-paddings .product-item {
+    padding: 0;
+}
+
+.mm-page .workarea-content-paddings .product-item-image-wrapper {
+    padding-top: 80%;
+    margin-bottom: 0;
+}
+
+.mm-page .workarea-content-paddings .product-item-title,
+.mm-page .workarea-content-paddings .product-item-title a {
+    color: #828282;
+    margin-bottom: 0;
+	font-size: 1em;
+}
+
+.mm-page .workarea-content-paddings .product-item-price-container,
+.mm-page .workarea-content-paddings .product-item-properties dt {
+    display: none;
+}
+
+.mm-page .workarea-content-paddings .product-item-properties dd {
+    float: none;
+    margin: 0;
+    color: #6e92db;
+}
+
+.mm-page .workarea-content-paddings .fields.string {
+    width: 20%;
+    float: left;
+}
+
+.mm-page .workarea-content-paddings .fields.string input {
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #e9e9e9;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+}
+
+.mm-page .workarea-content-paddings .fields.string input:focus {
+    border: 1px solid #9a9a9a;
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+}
+
+.mm-page .workarea-content-paddings .add_product_in_basket {
+    width: 70%;
+    max-width: 140px;
+    float: right;
+    margin-right: 20px;
+    background: #186bd2;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+        -ms-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+}
+
+.mm-page .workarea-content-paddings .add_product_in_basket:hover {
+    background: #183bd2;
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+        -ms-transition: .4s;
+         -o-transition: .4s;
+            transition: .4s;
+}
+
+.mm-page .workarea-content-paddings .webform-small-button-text {
+    display: block;
+    line-height: 24px;
+    text-transform: none;
+    font-family: Muller;
+    color: #fff;
+    text-align: center;
+
+}
+
+.mm-page .workarea-content-paddings > div:last-of-type {
+    padding: 0;
+    border: 1px solid #7595da;
+    border-left: 0;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+.mm-page .workarea-content-paddings > div:last-of-type h4 {
+    font-family: Muller;
+    font-weight: 300;
+}
+
+.mm-page #result-panel .panel-default {
+    border: 0;
+    box-shadow: none;
+}
+
+.mm-page #result-panel .panel-body {
+    max-height: 640px;
+    width: calc(100% + 65px);
+    margin-left: -35px;
+    overflow-x: visible;
+    overflow-y: scroll;
+    position: relative;
+    padding: 0;
+}
+
+.mm-page #result-panel h4 {
+    margin: 30px 0 20px;
+}
+
+.mm-page #result-panel .product-item {
+    position: relative;
+    padding: 0 30px 10px 35px;
+    border-bottom: 1px solid #f0f0f0;
+    overflow: hidden;
+}
+
+.mm-page #result-panel .product-preview {
+    width: 60%;
+    float: left;
+}
+
+.mm-page #result-panel .product-descr {
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+}
+
+.mm-page #result-panel .product-descr > div {
+    width: 100%;
+}
+
+.mm-page #result-panel .product-name {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.mm-page #result-panel .fields.string input {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.mm-page #result-panel .price-title,
+.mm-page #result-panel .order-result div {
+    font-size: 0.85em;
+    color: #a0a0a0;
+}
+
+.mm-page #result-panel .product-single-price span {
+    font-size: 1.2em;
+    color: #94969c;
+}
+
+.mm-page #result-panel .product-result-price span {
+    font-size: 1.2em;
+    color: #4e82d7;
+}
+
+.mm-page #result-panel .order-result {
+    float: left;
+}
+
+.mm-page #result-panel .order-result span {
+    font-size: 1.2em;
+    color: #cd0019;
+}
+
+.mm-page #pull_product_in_basket {
+    display: block;
+    border-radius: 0;
+    background: #cd0019;
+    width: 60%;
+    float: right;
+}
+
+.mm-page #pull_product_in_basket span {
+    line-height: 39px;
+}
+
+.mm-page #result-panel .product-del {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    opacity: 0.5;
+    background: url(../images/del-from-cart.png) center center no-repeat;
+    cursor: pointer;
+}
+
+.mm-page #result-panel .product-del:hover {
+    opacity: 1;
+}
+
+.mm-page #result-panel .empty-basket {
+    color: #a0a0a0;
+    margin: -20px 0 20px;
+}
+
+.back-to-product-list {
+    display: inline-block;
+    padding: 0 19px 0 29px;
+    line-height: 39px;
+    border-radius: 2px;
+    color: #fff !important;
+    text-decoration: none;
+    background: #3bc8f5;
+    text-transform: uppercase;
+    position: relative;
+    top: 9px;
+    left: 15px;
+    z-index: 1;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.back-to-product-list:before {
+    content: '';
+    display: block;
+    border: 8px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 10px;
+}
+
+.back-to-product-list:hover {
+    background: #3eddff;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.back-to-product-list ~ #container_crm_product_edit {
+    position: relative;
+    top: -39px;
+}
+
+.back-to-product-list ~ #container_crm_product_edit #form_CRM_PRODUCT_EDIT .crm-title-block {
+    padding-left: 230px;
+}
+
+#CRM_ORDER_LIST_table {
+    position: relative;
+    top: -39px;
+}
+
+.page-header {
+    margin: 0;
+}
+
+body.addstyle_User_TO a.webform-small-button-text,
+body.addstyle-distributor a.webform-small-button-text,
+body.addstyle-diler a.webform-small-button-text,
+body.addstyle-subdiler a.webform-small-button-text { color: #7a818a; }
+

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "calculator";
+$arDirProperties = array(
+
+);
+?>

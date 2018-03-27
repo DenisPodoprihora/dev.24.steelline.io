@@ -1,0 +1,36 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public/docs/.left.menu.php");
+
+if (in_array(12, $USER->GetUserGroupArray())){
+	$aMenuLinks = Array(
+		Array(
+			GetMessage("DOCS_MENU_ALL_DOCS"),
+			"/docs/index.php", 
+			Array(), 
+			Array(), 
+			"CBXFeatures::IsFeatureEnabled('CommonDocuments')"
+		),
+		Array(
+			GetMessage("DOCS_MENU_SHARED"),
+			"/docs/shared/", 
+			Array(), 
+			Array(), 
+			"CBXFeatures::IsFeatureEnabled('CommonDocuments')"
+		),
+		Array(
+			GetMessage("DOCS_MENU_SALE"),
+			"/docs/sale/", 
+			Array(), 
+			Array(), 
+			"CBXFeatures::IsFeatureEnabled('CommonDocuments')"
+		),
+		Array(
+			GetMessage("DOCS_MENU_MANAGE"),
+			"/docs/manage/", 
+			Array(), 
+			Array(), 
+			"CBXFeatures::IsFeatureEnabled('CommonDocuments')"
+		)
+	);
+}
+?>

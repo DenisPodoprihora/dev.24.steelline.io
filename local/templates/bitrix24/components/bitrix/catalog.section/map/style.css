@@ -1,0 +1,9 @@
+.wrap_obj {
+position:relative;
+}
+#map {
+height:730px;
+}
+.if_hidden {
+display:none;
+}

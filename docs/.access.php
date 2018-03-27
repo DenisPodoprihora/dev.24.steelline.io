@@ -1,0 +1,11 @@
+<?
+$PERM["shared"]["17"]="D";
+$PERM["shared"]["20"]="D";
+$PERM["shared"]["21"]="D";
+$PERM["shared"]["22"]="D";
+$PERM["sale"]["11"]="T_8";
+$PERM["sale"]["10"]="T_8";
+$PERM["sale"]["*"]="D";
+$PERM["manage"]["10"]="T_8";
+$PERM["manage"]["*"]="D";
+?>
